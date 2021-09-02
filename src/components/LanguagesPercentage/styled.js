@@ -1,12 +1,11 @@
 import styled from 'styled-components';
-import leftCorner from '../../assets/corner.svg';
+import corner from '../../assets/corner.svg';
 
 export const StatisticsBarWrapper = styled.div`
     position: relative;
     display: flex;
     margin: 4px 0;
     width: 80%;
-    height: 12px;
 `;
 
 export const DisplayBox = styled.div`
@@ -17,14 +16,15 @@ export const DisplayBox = styled.div`
 `;
 
 export const DisplayBoxLeftCorner = styled.div`
-    background-image: url(${leftCorner});
-    background-size: contain;
-    width: 5px;
-    height: 10px;
+    background-image: url(${corner});
+    width: 14px;
+    height: 14px;
+    margin: -2px 0 -2px -2px;
 `;
 
 export const DisplayBoxRightCorner = styled(DisplayBoxLeftCorner)`
     transform: rotate(180deg);
+    margin: -2px -2px -2px 0;
 `;
 
 export const PercentageWrapper = styled.div`
