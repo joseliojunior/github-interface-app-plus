@@ -13,9 +13,7 @@ export const DisplayBox = styled.div`
     position: absolute;
     display: flex;
     justify-content: space-between;
-    width: calc(100% - 1px);
-    height: 10px;
-    border: solid 1px ${props => props.theme.color.graffitiBlue1};
+    width: 100%;
 `;
 
 export const DisplayBoxLeftCorner = styled.div`
@@ -31,7 +29,7 @@ export const DisplayBoxRightCorner = styled(DisplayBoxLeftCorner)`
 
 export const PercentageWrapper = styled.div`
     display: flex;
-    height: 12px;
+    height: 10px;
     width: 100%;
 `;
 
