@@ -1,3 +1,8 @@
+/**
+ * @author Josélio de S. C. Júnior <joseliojrx25@gmail.com> joseliojunior
+ * @copyright Josélio de S. C. Júnior - 2021
+ * @license MIT
+*/
 import React, { useState, useEffect } from 'react';
 import * as $ from './styled';
 import Colors from '../Colors';

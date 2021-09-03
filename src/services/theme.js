@@ -1,3 +1,8 @@
+/**
+ * @author Josélio de S. C. Júnior <joseliojrx25@gmail.com> joseliojunior
+ * @copyright Josélio de S. C. Júnior - 2021
+ * @license MIT
+*/
 const theme = {
     color: {
         grey0: '#1a1a1a',
